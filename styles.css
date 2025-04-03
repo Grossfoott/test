@@ -1,0 +1,70 @@
+/* Allgemeine Stile */
+body {
+    font-family: Arial, sans-serif; /* Schriftart setzen */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f1ea; /* Hintergrundfarbe */
+    color: #3d3d3d; /* Standardtextfarbe */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    scroll-behavior: smooth; /* Sanftes Scrollen für Navigation */
+}
+
+/* Header mit Titel */
+header {
+    background-color: #5a3e2b; /* Brauner Hintergrund */
+    color: white; /* Weiße Schrift */
+    text-align: center; /* Zentrierter Text */
+    padding: 1rem; /* Abstand innen */
+    width: 100%; /* Volle Breite */
+}
+
+/* Navigationsleiste */
+nav {
+    background-color: #3d6b35; /* Grüner Hintergrund */
+    padding: 0.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+/* Links in der Navigation */
+nav a {
+    color: white; /* Weiße Schriftfarbe */
+    text-decoration: none; /* Unterstreichung entfernen */
+    margin: 0 15px; /* Abstand zwischen Links */
+    font-weight: bold; /* Fettgedruckt */
+    cursor: pointer; /* Mauszeiger als Klicksymbol */
+}
+
+/* Hauptcontainer für Inhalte */
+.container {
+    width: 80%; /* 80% der Breite */
+    margin: auto;
+    padding: 20px;
+}
+
+/* Karten (Sprechblasen für Inhalte) */
+.card {
+    background-color: white; /* Weiße Blasen */
+    padding: 20px;
+    margin: 50px 0; /* 50px Abstand zwischen den Karten */
+    border-radius: 20px; /* Abgerundete Ecken */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Schatten für 3D-Effekt */
+    max-width: 400px; /* Maximale Breite der Blasen */
+    position: relative; /* Für Pfeile */
+}
+
+.card:nth-child(odd) {
+    align-self: flex-start;
+}
+
+/* Fußzeile */
+footer {
+    text-align: center; /* Zentrierter Text */
+    padding: 1rem;
+    background-color: #5a3e2b; /* Gleiche Farbe wie Header */
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+}
